@@ -8,6 +8,7 @@ def sorting(top)
     (i*i).step(top,i) { |y| prime_numbers[y] = nil }
   end
 end 
+end 
 
 
   puts "Solved for #{top} in #{counter} steps."
