@@ -5,10 +5,9 @@ def prime?(num)
      return false 
    elsif num < 0 
      return false 
-   else 
-     return true  
     n += 1
   end 
+  true 
   end
 end
 
