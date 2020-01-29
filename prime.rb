@@ -1,6 +1,6 @@
 def prime?(numbers)
   n = -1
-  numbers.each do |number|
+  numbers.all  do |number|
     if number%n == 0 
       false 
     elsif number == -
