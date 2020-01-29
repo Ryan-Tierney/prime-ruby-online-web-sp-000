@@ -1,8 +1,9 @@
 def prime?(numbers)
   n = -1
   numbers.each do |number|
-    if number%n = 0 
+    if number%n == 0 
       false 
+    elsif number == -
     else 
       true 
       n += 1
