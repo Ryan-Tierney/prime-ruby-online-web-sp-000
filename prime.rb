@@ -4,6 +4,7 @@ def prime?(numbers)
     if number%n == 0 
       false 
     elsif number == -
+      false 
     else 
       true 
       n += 1
