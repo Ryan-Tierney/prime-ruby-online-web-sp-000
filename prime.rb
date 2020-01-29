@@ -1,15 +1,8 @@
-def prime?(numbers)
-  n = -1
-  numbers.each do |number|
-    if number%n == 0 
-      false 
-    elsif number == -
-      false 
-    else 
-      true 
-      n += 1
-    end 
-  end 
-end 
-    
+
+
+def is_prime?(num)
+  return false if num <= 1
+  Math.sqrt(num).to_i.downto(2).each {|i| return false if num % i == 0}
+  true
+end
   
